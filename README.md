@@ -6,6 +6,10 @@ This is a super-simple and lightweight tool to help you speed up your CTF docume
 
 ---
 
+Now you can create _**directories and README**_ files for your ctf's with only **one line**, all the **data** and **questions** will be automatically listed on the file, don't bother yourself copying those stuff, go directly to the action!
+
+---
+
 Use the pip to **install** the **TryHackMe api**:
 
 ````commandline
