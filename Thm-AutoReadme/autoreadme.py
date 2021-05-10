@@ -33,7 +33,7 @@ except OSError:
 else:
     print("Successfully created the directory %s " % path)
 
-file = open(f"{path}\README.md", "w")
+file = open(f"{path}/README.md", "w")
 file.write(f"# TryHackMe {room.get('type')}\n\n"
            f"## {room.get('title')}\n\n"
            f"> _{getpass.getuser()} | {date}_\n\n")
