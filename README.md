@@ -10,7 +10,7 @@ Now you can create _**directories and README**_ files for your ctf's with only *
 
 ---
 
-#Basic Information: 
+## Basic Information: 
 
 - Tags:
   - ```-r``` - it's the operator to select the **room**.
@@ -20,7 +20,7 @@ Now you can create _**directories and README**_ files for your ctf's with only *
 
 ---
 
-#Installation: 
+## Installation: 
 
 
 Use the pip to **install** the **TryHackMe api**:
