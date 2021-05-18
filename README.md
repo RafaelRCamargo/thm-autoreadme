@@ -10,20 +10,41 @@ Now you can create _**directories and README**_ files for your ctf's with only *
 
 ---
 
-Use the pip to **install** the **TryHackMe api**:
+###Basic Information: 
 
-````commandline
+- Tags:
+  - ```-r``` - it's the operator to select the **room**.
+    - Ex: ```-r vulnversity``` 
+  - ```-A``` - it's the **Aggressive** mode, creates full README.md with **Scan, System Info, Directory Scan and Users & Passwords notation area.**
+    - Ex: ```-r vulnversity -A``` 
+
+---
+
+###Installation: 
+
+
+####Use the pip to **install** the **TryHackMe api**:
+
+````shell
 pip install thmapi
 ````
 
-Now you just need to choose the **room** and **run the command**:
+####Now you just need to choose the **room** and **run the command**:
 
+- For the simple README.md file:
 ````commandline
-python autoreadme.py vulnversity
+python autoreadme.py -r vulnversity
+````
+
+- For the advanced README.md file:
+````commandline
+python autoreadme.py -r vulnversity -A
 ````
 
 - Plz note: 
   - ```python``` - calls **python**.
   - ```autoreadme.py``` - it's the **main script**.
+    - ```-r``` - it's the operator to select the **room**.
   - ```vulnversity``` - it's the **name of the room**, can be changed for any other room.    
     _- **Remember this name needs to be equals to de url**, usually the room name in lowercase_
+    - ```-A``` - it's the **Aggressive** mode, creates full README.md with **Scan, System Info, Directory Scan and Users & Passwords notation area.**
