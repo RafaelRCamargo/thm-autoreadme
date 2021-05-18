@@ -16,8 +16,6 @@ Now you can create _**directories and README**_ files for your ctf's with only *
   - ```-A``` - it's the **Aggressive** mode, creates full README.md with **Scan, System Info, Directory Scan and Users & Passwords notation area.**
     - Ex: ```-r vulnversity -A``` 
 
----
-
 ### Installation: 
 
 
